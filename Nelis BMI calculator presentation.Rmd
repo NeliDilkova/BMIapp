@@ -1,0 +1,48 @@
+---
+title: "BMI calculator app"
+author: "Neli Dilkova-Gnoyke"
+date: "April 05th 2019"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## What is the BMI?
+BMI stands for Body Mass Index. It is a measure for indicating nutritional status in adults. High BMI values are strongly correlated to obesity and well correlatad to high risk of cardiovascular diseass. Therefore, medics and nutritionists often use BMI in combination with other indices, to evaluate the risk of patients. 
+
+
+
+
+## Calculation of BMI
+
+This is how BMI is calculated, based on a simple example:
+
+````{r, echo = TRUE}
+weight = 50
+height = 168
+
+BMI <- weight/((height/100)^2)
+BMI
+
+```
+
+## The BMI app
+
+###Link to the app
+https://rpubs.com/nidilk/483305
+
+###Input
+The user has to enter their biometric data in metric units. 
+
+###Output
+- BMI value 
+- evaluation of the cardiovascular risk based on BMI and waist circumfence 
+
+
+
+## About the author
+
+Neli Dilkova-Gnoyke is a Senior Marketing Scientist at a large international Market Research Company and a certified nutritional coach. 
+
