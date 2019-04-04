@@ -10,7 +10,8 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ## What is the BMI?
-BMI stands for Body Mass Index. It is a measure for indicating nutritional status in adults. High BMI values are strongly correlated to obesity and well correlatad to high risk of cardiovascular diseass. Therefore, medics and nutritionists often use BMI in combination with other indices, to evaluate the risk of patients. 
+BMI stands for Body Mass Index. 
+It is a measure for indicating nutritional status in adults. High BMI values are strongly correlated to obesity and well correlatad to high risk of cardiovascular diseases. Therefore, medics and nutritionists often use BMI in combination with other indices, to evaluate the risk of patients. 
 
 
 
@@ -30,8 +31,11 @@ BMI
 
 ## The BMI app
 
-###Link to the app
-https://rpubs.com/nidilk/483305
+####Link to the app
+https://nelidilkova.shinyapps.io/FinalAssignmentDevDataProds/
+
+###Link to the app code on github
+https://github.com/NeliDilkova/BMIapp/tree/gh-pages
 
 ###Input
 The user has to enter their biometric data in metric units. 

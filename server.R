@@ -10,7 +10,8 @@ shinyServer(function(input, output, session) {
   
   observeEvent(input$infobutton,{
     showModal(modalDialog(title = "Help window","This application was created by Neli Dilkova-Gnoyke. 
-                          It generates recommendations following the most recent guidelines by the World Health Organization.
+                          It generates an evaluation of nutritional status based on BMI,
+                          following the most recent guidelines of the World Health Organization.
                           Please be aware that BMI is only one of many indicators used in nutritional science.
                           A BMI value outside of the normal values does not automatically mean ill health." ,
                           easyClose = TRUE
